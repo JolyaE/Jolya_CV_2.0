@@ -1,8 +1,38 @@
+html{
+    background-color: #330024;
+    color: white;
+    padding: 20px;
+    display:flex;
+    margin:auto;
+    text-align: center;
+    flex-direction:column;
+    border-radius:8px;
+}
 header{
     text-align: center;
+    margin-bottom: 20px;
 } 
 nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: rgb(255, 129, 249);
+}
+nav a:hover{
+    background-color: rgb(251, 0, 239);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+nav a{
+    color: rgb(255, 3, 242);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(255, 209, 255);
+    padding: 8px;
+    border-radius: 8px;
+}
+footer{
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
 }
