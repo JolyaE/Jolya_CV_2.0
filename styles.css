@@ -15,6 +15,7 @@ header{
 nav{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     color: rgb(255, 129, 249);
 }
@@ -35,4 +36,11 @@ footer{
     position: fixed;
     bottom: 0; 
     width: 100%; 
+}
+#artwork{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
 }
