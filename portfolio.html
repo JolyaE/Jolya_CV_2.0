@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" href="/TheWinterRose.jpg" type="image/x-icon">
     </head>
+    <!--Some styling is here because it is page-specific-->
     <style>
         #thispage{
             color: #e23cb0;
@@ -23,7 +24,6 @@
             border-radius: 10px;
         }
     </style>
-    <br>
         <header>
             <h1>Portfolio</h1>
         </header>
@@ -37,15 +37,20 @@
                 <h3><a href="extracs.html">Extracurriculars</a></h3>
                 <h3><a href="portfolio.html" id="thispage">Portfolio</a></h3>
         </nav>
+        <body>
+                <!--The github wont embed in an iframe for security reasons, so there's just a link to it-->
                 <h2>For my programming portfolio, visit my GitHub page at <a href = "https://github.com/JolyaE" target="_blank" >https://github.com/JolyaE</a></h2>
+                <!--The art portfolio part:-->
                 <h2>I love art as a hobby, so here are some of my favorite pieces:</h2>
-                <div id = "artworks">
+                <div id = "artworks"> <!--A div to hold all the artworks and their titles-->
+                    <!--A break for aesthetic and legibility purposes-->
                     <br></br>
-                    <h3>Fall 2024</h3>
-                    <div id = "part">
-                        <img src="grapevine.png" alt="Down in Grapevine" width="300px">
-                        <p>Down in Grapevine</p>
+                    <h3>Fall 2024</h3> <!--Each semester/timeframe has its h3 to distinguish it-->
+                    <div id = "part"> <!--Each artwork is in a div to make it easier to style and organize-->
+                        <img src="grapevine.png" alt="Down in Grapevine" width="300px"> <!--The image and its alternate text-->
+                        <p>Down in Grapevine</p><!--The title-->
                     </div>
+                    <!--All comments on the above div apply to all following divs-->
                     <div id = "part">
                         <img src="bird.png" alt="The Autumn Bird" width="300px">
                         <p>The Autumn Bird</p>
